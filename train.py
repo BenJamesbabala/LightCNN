@@ -52,8 +52,8 @@ parser.add_argument('--val_list', default='', type=str, metavar='PATH',
                     help='path to validation list (default: none)')
 parser.add_argument('--save_path', default='', type=str, metavar='PATH',
                     help='path to save checkpoint (default: none)')
-parser.add_argument('--num_classes', default=99891, type=int,
-                    metavar='N', help='mini-batch size (default: 99891)')
+parser.add_argument('--num_classes', default=79077, type=int,
+                    metavar='N', help='mini-batch size (default: 79077)')
 
 def main():
     global args
